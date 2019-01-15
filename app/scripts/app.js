@@ -10,4 +10,4 @@
  */
 angular
   .module('newModuleQuizApp', ['legoBricks']); // New module to be added after frameworks are installed relative to this directory.
-  .module('legoBricks'), [];
+
