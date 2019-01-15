@@ -9,4 +9,5 @@
  * Main module of the application.
  */
 angular
-  .module('newModuleQuizApp', []); // New module to be added after frameworks are installed relative to this directory.
+  .module('newModuleQuizApp', ['legoBricks']); // New module to be added after frameworks are installed relative to this directory.
+  .module('legoBricks'), [];
